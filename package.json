@@ -9,7 +9,8 @@
       "types": "./index.d.ts",
       "import": "./index.mjs"
     },
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./dist/index.mjs": "./dist/index.mjs"
   },
   "sideEffects": false,
   "repository": "ssh://git@github.com/kobakazu0429/rollup-test-mod-c.git",
