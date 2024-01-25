@@ -1,0 +1,21 @@
+{
+  "name": "mod-c",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "repository": "ssh://git@github.com/kobakazu0429/rollup-test-mod-c.git",
+  "author": "kobakazu0429 <kobakazu10@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mod-a": "https://github.com/kobakazu0429/rollup-test-mod-a.git"
+  }
+}
