@@ -5,7 +5,7 @@ export default /** @type {import('rollup').RollupOptions} */ ({
   input: "./index.mjs",
 
   output: {
-    file: `dist/index.mjs`,
+    file: `dist/index.min.mjs`,
     format: "es",
     sourcemap: true,
   },

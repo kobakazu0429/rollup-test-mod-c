@@ -10,7 +10,7 @@
       "import": "./index.mjs"
     },
     "./package.json": "./package.json",
-    "./dist/index.mjs": "./dist/index.mjs"
+    "./dist/index.min.mjs": "./dist/index.min.mjs"
   },
   "sideEffects": false,
   "repository": "ssh://git@github.com/kobakazu0429/rollup-test-mod-c.git",
